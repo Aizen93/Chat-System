@@ -1,0 +1,3 @@
+### Chat System Shared Memory
+
+Le but du projet est d’implémenter les ﬁles de messages pour une communications entre les processus sur la même machine (pas de communication par réseau). Vous devez faire une implémentation en utilisant la mémoire partagée entre les processus, en particulier une solution qui implémente les ﬁles de messages a` l’aide de ﬁles de messages existantes (POSIX ou System V).` L’accès parallèle a la ﬁle de messages doit être possible avec une protection appropriée soit avec des sémaphores POSIX soit avec les mutexes/conditions.
